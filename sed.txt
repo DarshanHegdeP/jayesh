@@ -1,0 +1,8 @@
+cat employ.txt
+ 1898  sed -n "2p" employ.txt
+ 1899  sed -n "2,5p" employ.txt
+ 1900  sed "3d" employ.txt
+ 1901  sed "4,7d" employ.txt
+ 1902  sed -e 's/HR/Hiring Manager/g'
+ 1903  sed -e 's/HR/Hiring Manager/g' employ.txt
+ 1904  sed -e 's/pune/Maharashtra/g' -e 's/Bengaluru/Banglore/g' employ.txt
