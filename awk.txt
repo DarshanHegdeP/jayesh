@@ -1,0 +1,10 @@
+awk -F',' '{print}' employ.txt
+ 1875  awk -F',' '{print $2}' employ.txt
+ 1876  awk -F',' '{print $2,$3,$4}' employ.txt
+ 1877  awk -F',' '$4="Developer"{print $2,$3,$4}' employ.txt
+ 1878  awk -F',' '$4=="Developer"{print $2,$3,$4}' employ.txt
+ 1879  awk -F',' '$4=="Developer"{print $2,$3,$4,$5}' employ.txt
+ 1880  awk -F',' '$4=="Developer|$5>72000"{print $2,$3,$4,$5}' employ.txt
+ 1881  awk -F',' '$5>72000{print $2,$3,$4,$5}' employ.txt
+ 1882  awk -F',' '$5>72000|$4=="Developer"{print $2,$3,$4,$5}' employ.txt
+ 1883  awk -F',' '$5>72000 && $4=="Developer"{print $2,$3,$4,$5}' employ.txt
