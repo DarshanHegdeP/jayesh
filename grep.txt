@@ -1,0 +1,7 @@
+grep "Developer" employ.txt
+ 1851  -v grep "Developer" employ.txt
+ 1852  grep -n "Developer" employ.txt
+ 1853  grep -c "Developer" employ.txt
+ 1854  grep -i "developer" employ.txt
+ 1855  grep -w "Sha" employ.txt
+ 1856  grep -w "Sharma" employ.txt
